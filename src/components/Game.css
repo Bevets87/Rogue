@@ -1,0 +1,91 @@
+h1 {
+  text-align: center;
+  color: darkgreen;
+}
+p {
+  text-align: center;
+  color: darkgreen;
+  width: 50%;
+  margin: 50px auto;
+  font-size: 40px;
+}
+ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+li {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 12px;
+  margin-top: 10px;
+  color: darkblue;
+}
+.container {
+  width: 70%;
+  min-width: 1000px;
+  background: skyblue;
+  padding: 0;
+  margin: 50px auto;
+}
+#wall {
+  background: white;
+}
+#space {
+  background: skyblue
+}
+#user {
+  background: rgb(0,0,139)
+}
+#boss {
+  background: rgb(0,100,0)
+}
+#item {
+  background: url('http://efdreams.com/data_images/dreams/heart/heart-11.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#player-weapon {
+  background: rgb(0,0,139)
+}
+#boss-weapon {
+  background: rgb(0,100,0)
+}
+#enemy {
+  background: darkgreen
+}
+#replay-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background: rgba(255,255,255,0.9);
+}
+
+#replay-modal-title {
+  font-size: 65px;
+}
+#block-gun-modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background: rgba(255,255,255,0.9);
+}
+
+button {
+  background: none;
+  border: 2px dotted black;
+  outline: none;
+  cursor: pointer;
+  font-size: 75px;
+  font-family: 'Press Start 2P', cursive;
+  float: right;
+  margin-right: 20vw;
+}
